@@ -7,7 +7,4 @@ RUN mvn -f /home/app/pom.xml clean package
 FROM openjdk:11
 VOLUME /tmp
 COPY --from=build /home/app/target/torreShoal-0.0.1-SNAPSHOT.jar /usr/local/lib/torreShoal.jar
-ADD src/tmp/ src/tmp
-RUN mkdir /opt/documentos
-COPY creds.json /opt/
 ENTRYPOINT ["java","-jar","/usr/local/lib/torreShoal.jar"]
