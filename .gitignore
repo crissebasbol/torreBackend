@@ -1,0 +1,45 @@
+# OS Files #
+.DS_Store
+
+# Directories #
+build/
+bin/
+target/
+libs/
+tmp/
+node_modules/
+
+
+servicio-liquibase/HELP.md
+servicio-liquibase/target/
+servicio-liquibase/.mvn/wrapper/maven-wrapper.jar
+servicio-liquibase/!**/src/main/**/target/
+servicio-liquibase/!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
