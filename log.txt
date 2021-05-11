@@ -1,0 +1,44 @@
+[08-05-2021 7:00 pm] -> Creation Repositories frontEnd and backend
+[08-05-2021 8:00 pm] -> Creation Project angular 
+[08-05-2021 9:00 pm] -> Idea planning part 1
+[08-05-2021 10:00 pm] -> Idea planning part 2
+[08-05-2021 11:00 pm] -> Creation mockups part 1
+[08-05-2021 12:00 am] -> Creation mockups part 2
+------------------------------------------------------------------------------------
+[09-05-2021]  8:00 am - 4:00 pm Familiar activities for mother's day
+[09-05-2021 4:00 pm] -> Creation mockups part 3
+[09-05-2021 5:00 pm] -> Searching template for frontend part 1
+[09-05-2021 6:00 pm] -> Searching template for frontend part 2
+[09-05-2021 7:00 pm] -> Adding template in project 
+[09-05-2021 8:00 pm] -> Implementation libraries for template
+[09-05-2021 9:00 pm] -> configure index page part 1
+[09-05-2021 10:00 pm] -> configure index page part 2
+[09-05-2021 11:00 pm] -> Configure login page interface
+[09-05-2021 12:00 am] -> Configure posting page interface
+[09-05-2021 01:00 am] -> Make form for posting 
+------------------------------------------------------------------------------------
+[10-05-2021]  7:30 am - 6:00 pm Working hours in the company 'Cumbre'
+[10-05-2021 7:00 pm] -> Configure Lis opportunities page part 1
+[10-05-2021 8:00 pm] -> Configure Lis opportunities page part 2
+[10-05-2021 9:00 pm] -> Creation dockerfile
+[10-05-2021 10:00 pm] -> Creation file for deploy in serve
+[10-05-2021 11:00 pm] -> Merge all branches in 'develop branch', testing and merge with 'master'
+[10-05-2021 12:00 am] -> Creation Spring project for backend, thinking about micro-services
+[10-05-2021 01:00 am] -> Creation dockerfile and file for deployment
+[10-05-2021 02:00 am] -> Creation server on google
+[10-05-2021 03:00 am] -> Add firewall rules in server
+[10-05-2021 04:00 am] -> Add mongo DB in the server
+[10-05-2021 05:00 am] -> Deploy front in server
+------------------------------------------------------------------------------------
+[11-05-2021]  7:30 am - 1:00 pm Working hours in the company 'Cumbre', Permission is requested to work on the test. 
+[11-05-2021 01:00 pm] -> Add service for login with username (use of rest template for use endpoints of Torre, Lombok for creation of models) of torre part 1
+[11-05-2021 02:00 pm] -> Add service for login with username of torre part 2
+[11-05-2021 03:00 pm] -> Add service for search ideal person part 1
+[11-05-2021 04:00 pm] -> Add service for search ideal person part 2, merge and integration. 
+[11-05-2021 05:00 pm] -> Update and deploy on google server. 
+[11-05-2021 05:00 pm] -> Send test to Torre. 
+
+TODO: implement services of the backend in the front, save information in the mongo db created on google server, create page for check projects, finish page for list all the projects, add services for contact with a person that posted a project. 
+
+Due to work issues I could not dedicate all the time to the test, however, I tried to do my best and do it correctly, implementing good technologies and making a nice design.
+
