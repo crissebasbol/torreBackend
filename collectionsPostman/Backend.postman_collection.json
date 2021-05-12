@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "e4424ea6-20c7-4742-b971-052785ec930f",
+		"name": "Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/ping",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ping Remote",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "34.71.58.122:8081/ping",
+					"host": [
+						"34",
+						"71",
+						"58",
+						"122"
+					],
+					"port": "8081",
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/login/:username",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"login",
+						":username"
+					],
+					"variable": [
+						{
+							"key": "username",
+							"value": "crissebasbol"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search ideal person",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"and\": [\n        {\n            \"skillRole\": {\n                \"text\": \"kotlin\",\n                \"experience\": \"1-plus-year\"\n            }\n        },\n        {\n            \"skillRole\": {\n                \"text\": \"java\",\n                \"experience\": \"1-plus-year\"\n            }\n        },\n        {\n            \"skillRole\": {\n                \"text\": \"marketing\",\n                \"experience\": \"1-plus-year\"\n            }\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://34.71.58.122:8081/search/idealPerson",
+					"protocol": "http",
+					"host": [
+						"34",
+						"71",
+						"58",
+						"122"
+					],
+					"port": "8081",
+					"path": [
+						"search",
+						"idealPerson"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
